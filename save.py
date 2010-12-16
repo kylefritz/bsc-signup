@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 
 import cgi
-import cgitb;cgitb.enable()
+import os
+
+if os.environ["REMOTE_ADDR"]=="69.143.34.61":
+	import cgitb;cgitb.enable()
+
 from datetime import datetime
 
 form=cgi.FieldStorage()
