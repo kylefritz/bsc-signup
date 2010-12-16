@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------------------------
+  Global Reset v0.3 (based on http://meyerweb.com/eric/tools/css/reset/ - v1.0 | 20080212)
+-----------------------------------------------------------------------------------*/
+	 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; font-family: arial, serif;}
+	 body { line-height: 1; }
+	 ol, ul { list-style: none; }
+	 :focus { outline: 0; }
+	 table { border-collapse: collapse; border-spacing: 0; }
+	 /* HTML5 */
+	 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+   
+html{border-top:10px solid #FF5A3F; }
+body{width:600px; margin:40px auto;}
+h1{ color: #FF5A3F;font-size:80pt; font-family: 'Lobster', arial, serif; }
+input[type=submit]{background:#FF5A3F; color:white;padding:6px;border:0px solid black;font-family: 'Lobster', arial, serif;font-size:12pt;}
+input[type=text]{padding:4px;font-size:12pt;width:225px;}
+#signup{margin-top:80px;margin-left:300px;}
