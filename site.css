@@ -11,8 +11,9 @@
 
    
 html{border-top:10px solid #FF5A3F; }
-body{width:600px; margin:40px auto;}
+body{width:600px; margin:40px auto;overflow:hidden;}
 h1{ color: #FF5A3F;font-size:80pt; font-family: 'Lobster', arial, serif; }
-input[type=submit]{background:#FF5A3F; color:white;padding:6px;border:0px solid black;font-family: 'Lobster', arial, serif;font-size:12pt;}
-input[type=text]{padding:4px;font-size:12pt;width:225px;}
+input[type=text]{padding:0 4px;height:30px;font-size:12pt;width:205px;}
+input[type=submit]{background:white; color:#FF5A3F;padding:6px;border:1px solid #FF5A3F;font-family: 'Lobster', arial, serif;font-size:12pt;}
 #signup{margin-top:80px;margin-left:300px;}
+input[type=submit].enabled{background:#FF5A3F; color:white;border:1px solid #FF5A3F;}
