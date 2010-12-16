@@ -2,7 +2,14 @@
 
 Website for signing up new people
 
-
+    + (site root)
+    |
+    +-app/ (this repo)
+    |
+    +-emails/ (signups kept here)
+    |
+    +-index.html -> ./app/supper.html
+    
 ##Couple of other (htaccess tricks):
 
 ###Rewrite http://www => http://
